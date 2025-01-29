@@ -11,15 +11,17 @@ function App() {
   //   { name: "Sardor", age: 15 },
   //   { name: "Madina", age: 25 },
   // ];
-  // const filtr = users.map((item) => item.age > 18);
+  // const filtr = users.filter((item) => item.age > 18);
   // console.log(filtr);
   //! 2 misol
-  // const users = [
-  //   { name: "Ali", age: 20 },
-  //   { name: "Bobur", age: 22 },
-  //   { name: "Sardor", age: 25 },
-  // ];
-  // users.map((item) => console.log(item.name));
+  //   const users = [
+  //     { name: "Ali", age: 20 },
+  //     { name: "Bobur", age: 22 },
+  //     { name: "Sardor", age: 25 },
+  //   ];
+  // const newArr =  users.map((item) => item.name)
+  // console.log(newArr);
+
   //! 3 misol
   // const products = [
   //   { name: "Telefon", price: 1200000 },
@@ -27,7 +29,6 @@ function App() {
   //   { name: "Dazmol", price: 400000 },
   //   { name: "Sovutgich", price: 2500000 },
   // ];
-  // // console.log(products);
   // const produkt = products.filter((item)=>{
   //   return item.price > 500000
   // })
@@ -36,27 +37,27 @@ function App() {
   // const students = [
   //   { name: "Ali", grade: 4 },
   //   { name: "Bobur", grade: 3 },
-  //   { name: "Madina", grade: 5 }
+  //   { name: "Madina", grade: 5 },
   // ];
   // console.log(students);
-  // const stats = students.map((item)=>{
-  //   return console.log(item.name , item.grade + 1);
-  // })
+  // const stats = students.map((item) => item.grade + 1);
+  // console.log(stats);
+
   //! 5 misol
   // const names = ["ali", "bobur", "madina", "sardor"];
   // console.log(names);
-  // names.map((item) => {
-  //   console.log("ali".toUpperCase(), "bobur".toUpperCase(),  "madina".toUpperCase(), "sardor".toUpperCase());
-  // });
+  // const sum = names.map((item) => item.toUpperCase());
+  // console.log(sum);
+
   //! 6 misol
   // const products = [
   //   { name: "Telefon", price: 1200000 },
   //   { name: "Noutbuk", price: 5000000 },
   //   { name: "Dazmol", price: 400000 }
   // ];
-  //    products.map((item)=>{
-  //     return console.log(item.price * 0.9);
-  //    })
+  // const sum =  products.map((item)=>item.price * 0.9)
+  // console.log(sum);
+  
   //! 7 misol
   //   const users = [
   //     { name: "Ali", age: 20 },
@@ -84,25 +85,21 @@ function App() {
   //   positon: workers.salary < 3000000 ? "qulvacha" : "ishchi"
   // }));
   // console.log(ishchi);
-   
+
   //! 10 misol
 
-  
-// const products = [
-//   { name: "Telefon", price: 1200000 },
-//   { name: "Noutbuk", price: 5000000 },
-//   { name: "Dazmol", price: 400000 },
-//   { name: "Sovutgich", price: 2500000 }
-// ];
-// const updatedProducts = products.map(product => ({
-//   ...product,
-//   newPrice: product.price > 500000 ? product.price * 0.85 : "chegirma yo'q"
-// }));
+  // const products = [
+  //   { name: "Telefon", price: 1200000 },
+  //   { name: "Noutbuk", price: 5000000 },
+  //   { name: "Dazmol", price: 400000 },
+  //   { name: "Sovutgich", price: 2500000 }
+  // ];
+  // const updatedProducts = products.map(product => ({
+  //   ...product,
+  //   newPrice: product.price > 500000 ? product.price * 0.85 : "chegirma yo'q"
+  // }));
 
-// console.log(updatedProducts);
-
-
-// 😥 10 misolni ozim qilmadim to'g'risi
+  // console.log(updatedProducts);
 }
 
 export default App;
